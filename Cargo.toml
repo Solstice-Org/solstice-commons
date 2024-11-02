@@ -1,0 +1,10 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "solstice-commons"
+version = "0.0.1"
+edition = "2024"
+authors = ["Etienne Herzig <dev-eherzig@proton.me>"]
+license = "MIT"
+
+[dependencies]
