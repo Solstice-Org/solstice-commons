@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: version-check
+        name: version-check
+        entry: "python hooks/version_check.py"
+        language: python
+        files: "Cargo.toml"
+        pass_filenames: false
+        always_run: true
